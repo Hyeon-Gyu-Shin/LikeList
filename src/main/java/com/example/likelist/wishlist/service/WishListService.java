@@ -1,5 +1,8 @@
 package com.example.likelist.wishlist.service;
 
+import com.example.likelist.naver.NaverClient;
+import com.example.likelist.naver.dto.SearchImageReq;
+import com.example.likelist.naver.dto.SearchLocalReq;
 import com.example.likelist.wishlist.dto.WishListDto;
 import com.example.likelist.wishlist.repository.WishListRepository;
 import lombok.RequiredArgsConstructor;
